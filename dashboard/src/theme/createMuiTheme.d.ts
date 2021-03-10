@@ -7,11 +7,18 @@ declare module '@material-ui/core/styles/createMuiTheme' {
         navigationRailWidth: number
     }
 
+    interface ScaffoldTheme{
+        appBarColor: (theme: Theme) => string
+        drawerColor: (theme: Theme) => string
+    }
+
     interface ThemeOptions {
         size?: Size
+        scaffoldTheme?: ScaffoldTheme
     }
 
     interface Theme{
         size: Size
+        scaffoldTheme: ScaffoldTheme
     }
 }

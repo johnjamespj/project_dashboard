@@ -7,6 +7,10 @@ const themeLight = createMuiTheme({
   palette,
   typography,
   size,
+  scaffoldTheme: {
+    appBarColor: (theme) => theme.palette.primary.main,
+    drawerColor: (theme) => theme.palette.common.white,
+  },
 })
 
 export const theme = responsiveFontSizes(themeLight)

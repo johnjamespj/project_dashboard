@@ -3,9 +3,9 @@
 import { Button } from './button';
 
 export default {
-  title: 'Components/Button',
-  component: Button,
-      argTypes: {
+    title: 'Components/Button',
+    component: Button,
+    argTypes: {
         variant: {
             control: {
                 type: "select",

@@ -11,6 +11,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "react": "^17.0.0",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^17.0.0",
     "react-helmet": "^6.1.0"
   },
@@ -28,6 +29,7 @@
     "@types/chai": "^4.2.13",
     "@types/mocha": "^8.2.0",
     "@types/react": "^17.0.0",
+    "@types/react-custom-scrollbars": "^4.0.7",
     "@types/react-dom": "^17.0.0",
     "@types/react-helmet": "^6.1.0",
     "@types/snowpack-env": "^2.3.2",
