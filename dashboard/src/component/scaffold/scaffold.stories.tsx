@@ -1,3 +1,4 @@
+import React from 'react'
 import { Scaffold as ScaffoldComponent } from './Scaffold'
 
 const item = (name: string, badge?: string, icon?: string) => ({

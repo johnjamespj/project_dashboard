@@ -1,5 +1,5 @@
-import { List as MUIList, Collapse, ListItem, ListItemIcon, ListItemText, Divider, Typography, Icon, ListSubheader } from '@material-ui/core'
 import React from 'react'
+import { List as MUIList, Collapse, ListItem, ListItemIcon, ListItemText, Divider, Typography, Icon, ListSubheader } from '@material-ui/core'
 
 export interface DrawerMenuListSection {
     sectionTitle: string;

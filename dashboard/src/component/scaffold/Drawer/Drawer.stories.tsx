@@ -1,3 +1,4 @@
+import React from 'react'
 import { Drawer as DrawerComponent } from '.';
 
 const item = (name: string, badge?: string, icon?: string) => ({

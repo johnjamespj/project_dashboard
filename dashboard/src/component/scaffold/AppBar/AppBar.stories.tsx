@@ -1,5 +1,5 @@
+import React from 'react'
 import { AppBar as SAppBar } from '.';
-
 
 export default {
     title: 'Components/Scaffold/App Bar',

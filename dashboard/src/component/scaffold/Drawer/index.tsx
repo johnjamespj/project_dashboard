@@ -2,6 +2,7 @@ import type { DrawerLegalsProps } from './DrawerLegal'
 import type { DrawerMenuProps } from './List'
 import type { BrandHeaderProps } from '../BrandHeader/BrandHeader'
 
+import React from 'react'
 import { DrawerLegals } from './DrawerLegal'
 import { List } from './List'
 import { Drawer as MUIDrawer, makeStyles, Hidden, useTheme, Toolbar } from '@material-ui/core'
